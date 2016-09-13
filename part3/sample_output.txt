@@ -1,0 +1,87 @@
+Sample output of running COMP307A2P3.jar
+
+****NB: There will be an error java.io.FileNotFoundException: when this program is run.
+Ignore it, it does not affect the output of the program.*******
+
+log4j:ERROR setFile(null,true) call failed.
+java.io.FileNotFoundException: /usr/pkg/java/sun-8/jrelog4j_jgap_lf.log (Permission denied)
+        at java.io.FileOutputStream.open0(Native Method)
+        at java.io.FileOutputStream.open(FileOutputStream.java:270)
+        at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+        at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+        at org.apache.log4j.FileAppender.setFile(FileAppender.java:272)
+        at org.apache.log4j.RollingFileAppender.setFile(RollingFileAppender.java:156)
+        at org.apache.log4j.FileAppender.activateOptions(FileAppender.java:151)
+        at org.apache.log4j.config.PropertySetter.activate(PropertySetter.java:247)
+        at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:123)
+        at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:87)
+        at org.apache.log4j.PropertyConfigurator.parseAppender(PropertyConfigurator.java:645)
+        at org.apache.log4j.PropertyConfigurator.parseCategory(PropertyConfigurator.java:603)
+        at org.apache.log4j.PropertyConfigurator.configureRootCategory(PropertyConfigurator.java:500)
+        at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:406)
+        at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:432)
+        at org.apache.log4j.helpers.OptionConverter.selectAndConfigure(OptionConverter.java:460)
+        at org.apache.log4j.LogManager.<clinit>(LogManager.java:113)
+        at org.apache.log4j.Logger.getLogger(Logger.java:94)
+        at org.jgap.gp.GPFitnessFunction.<clinit>(GPFitnessFunction.java:29)
+        at p3.Part3.<init>(Part3.java:56)
+        at p3.Part3.main(Part3.java:176)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+[JGAP][15:18:29] INFO GPGenotype - Creating initial population
+[JGAP][15:18:29] INFO GPGenotype - Mem free: 119.0 MB
+[JGAP][15:18:29] INFO GPPopulation - Prototype program set
+[JGAP][15:18:29] INFO GPGenotype - Mem free after creating population: 119.0 MB
+[JGAP][15:18:29] INFO GPGenotype - Your configuration does not contain unused commands, this is good
+[JGAP][15:18:29] INFO GPGenotype - Evolving generation 0, memory free: 116.8 MB
+[JGAP][15:18:29] INFO GPGenotype - Best solution fitness: 93.46
+[JGAP][15:18:29] INFO GPGenotype - Best solution: (bn - 5.0) + (ucsi * nn)
+[JGAP][15:18:29] INFO GPGenotype - Depth of chrom: 2
+[JGAP][15:18:29] INFO GPGenotype - Best solution fitness: 94.99
+[JGAP][15:18:29] INFO GPGenotype - Best solution: (bn - 5.0) + ucsi
+[JGAP][15:18:29] INFO GPGenotype - Depth of chrom: 2
+[JGAP][15:18:29] INFO GPGenotype - Best solution fitness: 95.44
+[JGAP][15:18:29] INFO GPGenotype - Best solution: (m + (((bn * bn) * (ucsh - 3.0)) + (bn - ucsh))) + (ucsi - 3.0)
+[JGAP][15:18:29] INFO GPGenotype - Depth of chrom: 5
+[JGAP][15:18:29] INFO GPGenotype - Best solution fitness: 95.70
+[JGAP][15:18:29] INFO GPGenotype - Best solution: ((bc - bc) + (bn - 4.0)) - (3.0 - ct)
+[JGAP][15:18:29] INFO GPGenotype - Depth of chrom: 3
+[JGAP][15:18:29] INFO GPGenotype - Best solution fitness: 95.97
+[JGAP][15:18:29] INFO GPGenotype - Best solution: (ucsi - ct) + (((bn + ucsh) - 3.0) - (5.0 - ct))
+[JGAP][15:18:29] INFO GPGenotype - Depth of chrom: 4
+[JGAP][15:18:29] INFO GPGenotype - Best solution fitness: 95.97
+[JGAP][15:18:29] INFO GPGenotype - Best solution: (((bn + ucsh) - 3.0) - (5.0 - ct)) - 3.0
+[JGAP][15:18:29] INFO GPGenotype - Depth of chrom: 4
+[JGAP][15:18:29] INFO GPGenotype - Best solution fitness: 96.41
+[JGAP][15:18:29] INFO GPGenotype - Best solution: m + ((((bn + ucsh) - 3.0) + ucsi) + ((bn - 5.0) + (ucsh - 6.0)))
+[JGAP][15:18:29] INFO GPGenotype - Depth of chrom: 5
+[JGAP][15:18:29] INFO GPGenotype - Best solution fitness: 96.59
+[JGAP][15:18:29] INFO GPGenotype - Best solution: (((bn + (ucsh + bn)) - 6.0) - (5.0 - (ucsh - 6.0))) + (ucsi * nn)
+[JGAP][15:18:29] INFO GPGenotype - Depth of chrom: 5
+[JGAP][15:18:29] INFO GPGenotype - Evolving generation 25, memory free: 88.6 MB
+[JGAP][15:18:30] INFO GPGenotype - Evolving generation 50, memory free: 83.8 MB
+[JGAP][15:18:30] INFO GPGenotype - Best solution fitness: 96.86
+[JGAP][15:18:30] INFO GPGenotype - Best solution: (ct + ucsi) + (((bn - 6.0) + ((ucsh - 4.0) + ucsh)) - 5.0)
+[JGAP][15:18:30] INFO GPGenotype - Depth of chrom: 5
+[JGAP][15:18:30] INFO GPGenotype - Evolving generation 75, memory free: 104.9 MB
+[JGAP][15:18:31] INFO GPGenotype - Evolving generation 100, memory free: 87.4 MB
+[JGAP][15:18:31] INFO GPGenotype - Evolving generation 125, memory free: 85.5 MB
+[JGAP][15:18:32] INFO GPGenotype - Evolving generation 150, memory free: 103.7 MB
+[JGAP][15:18:32] INFO GPGenotype - Best solution fitness: 96.86
+[JGAP][15:18:32] INFO GPGenotype - Best solution: (ucsh + (((((bn + ct) - 3.0) * ucsi) - 5.0) - 5.0)) - 5.0
+[JGAP][15:18:32] INFO GPGenotype - Depth of chrom: 7
+[JGAP][15:18:32] INFO GPGenotype - Best solution fitness: 97.31
+[JGAP][15:18:32] INFO GPGenotype - Best solution: (((((bn + ct) - 5.0) * ucsi) - 3.0) * ucsh) - 5.0
+[JGAP][15:18:32] INFO GPGenotype - Depth of chrom: 6
+[JGAP][15:18:32] INFO GPGenotype - Best solution fitness: 97.49
+[JGAP][15:18:32] INFO GPGenotype - Best solution: (((nn + (((((bn + ct) - 5.0) * ucsi) - 3.0) * ucsi)) - 3.0) - 5.0) - 3.0
+[JGAP][15:18:32] INFO GPGenotype - Depth of chrom: 9
+[JGAP][15:18:32] INFO GPGenotype - Evolving generation 175, memory free: 87.7 MB
+Best discovered function is: 
+[JGAP][15:18:33] INFO GPGenotype - Best solution fitness: 97.49
+[JGAP][15:18:33] INFO GPGenotype - Best solution: (((nn + (((((bn + ct) - 5.0) * ucsi) - 3.0) * ucsi)) - 3.0) - 5.0) - 3.0
+[JGAP][15:18:33] INFO GPGenotype - Depth of chrom: 9
+Test data is at :98.51541485619698
